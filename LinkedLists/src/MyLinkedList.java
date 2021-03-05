@@ -4,6 +4,7 @@
 public class MyLinkedList<E> implements MyList<E>{
 
     Node<E> head; // head of list
+    Node<E> tail; // tail of list
 
     // method to insert a new node
     @Override
@@ -16,6 +17,7 @@ public class MyLinkedList<E> implements MyList<E>{
 
         if (myList.head == null) {
             myList.head = newNode;
+            myList.tail = newNode;
         } else {
             Node<E> last = myList.head;
             while (last.next != null) {
@@ -24,8 +26,42 @@ public class MyLinkedList<E> implements MyList<E>{
 
             // insert the new_node at last node
             last.next = newNode;
+            tail = newNode;
         }
 
+        //return (T)myList;
+    }
+
+    // return the size of the list
+    @Override
+    public <T extends MyList<E>> int lengthOfTheList(T list) {
+        MyLinkedList myList = (MyLinkedList) list;
+        Node<E> currentNode = myList.head;
+        int size = 0;
+
+        while (currentNode != null) {
+            size++;
+            currentNode = currentNode.next;
+        }
+        return size;
+    }
+
+    // method to insert a node at the beginning
+    @Override
+    public <T extends MyList<E>> void insertAtBegin(T list, E data) {
+        MyLinkedList myList = (MyLinkedList) list;
+
+        // create a new node with given data, add it to the end
+        Node<E> newNode = new Node<>(data);
+        newNode.next = null;
+
+        if (myList.head == null) {
+            myList.head = newNode;
+            myList.tail = newNode;
+        } else {
+            newNode.next = myList.head;
+            myList.head = newNode;
+        }
         //return (T)myList;
     }
 

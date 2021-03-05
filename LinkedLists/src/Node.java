@@ -1,7 +1,7 @@
 // linked list node
 class Node<E> {
     E data;
-    Node next;
+    Node<E> next;
 
     Node() {
         next = null;
