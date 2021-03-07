@@ -42,7 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Threads" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,15 +65,16 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="340" y="158" key="FileChooserDialogImpl" timestamp="1614684166023">
+    <state x="340" y="158" key="FileChooserDialogImpl" timestamp="1615046714171">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="340" y="158" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614684166023" />
-    <state x="0" y="37" key="new project wizard" timestamp="1614684177096">
+    <state x="340" y="158" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615046714171" />
+    <state x="0" y="37" key="new project wizard" timestamp="1615046700051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="37" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1614684177096" />
+    <state x="0" y="37" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1615046700051" />
   </component>
 </project>
